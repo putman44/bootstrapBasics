@@ -10,6 +10,7 @@ This project demonstrates the basics of using [Bootstrap](https://getbootstrap.c
 
 - Responsive design using Bootstrap's grid system
 - Example usage of Bootstrap buttons, forms, and navigation
+- added styling to navbar, hover effect for selected link
 
 ## Getting Started
 

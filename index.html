@@ -21,11 +21,11 @@
         <div class="row">
           <div class="col-6 mb-3">
             <label for="first-name">First Name</label>
-            <input class="form-control" type="text" id="first-name" />
+            <input class="form-control" type="text" id="first-name" required />
           </div>
           <div class="col-6 mb-3">
             <label for="first-name">First Name</label>
-            <input class="form-control" type="text" id="first-name" />
+            <input class="form-control" type="text" id="first-name" required />
           </div>
         </div>
         <div class="mb-3">
@@ -37,6 +37,7 @@
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            required
           />
         </div>
         <div class="mb-3">
@@ -45,15 +46,21 @@
             type="password"
             class="form-control"
             id="exampleInputPassword1"
+            required
           />
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+            required
+          />
           <label class="form-check-label" for="exampleCheck1">
-            Check me out
+            Agree to terms and conditions
           </label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-success">Submit</button>
       </form>
     </main>
   </body>
